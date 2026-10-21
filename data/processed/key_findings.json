@@ -1,0 +1,165 @@
+{
+  "team_seasons": 80,
+  "matches": 1517,
+  "team_matches": 3034,
+  "league": {
+    "La Liga": {
+      "ppda": 9.529,
+      "pressures_pm": 150.107,
+      "att_share": 0.198
+    },
+    "Ligue 1": {
+      "ppda": 11.6,
+      "pressures_pm": 173.386,
+      "att_share": 0.193
+    },
+    "Premier League": {
+      "ppda": 11.064,
+      "pressures_pm": 151.845,
+      "att_share": 0.19
+    },
+    "Serie A": {
+      "ppda": 10.996,
+      "pressures_pm": 172.221,
+      "att_share": 0.201
+    }
+  },
+  "lowest_ppda": [
+    [
+      "Barcelona",
+      "La Liga",
+      7.66
+    ],
+    [
+      "Celta Vigo",
+      "La Liga",
+      7.87
+    ],
+    [
+      "Rayo Vallecano",
+      "La Liga",
+      8.1
+    ],
+    [
+      "Liverpool",
+      "Premier League",
+      8.57
+    ],
+    [
+      "Lyon",
+      "Ligue 1",
+      8.67
+    ]
+  ],
+  "highest_ppda": [
+    [
+      "Angers",
+      "Ligue 1",
+      14.81
+    ],
+    [
+      "Aston Villa",
+      "Premier League",
+      14.87
+    ],
+    [
+      "Lorient",
+      "Ligue 1",
+      14.97
+    ]
+  ],
+  "ppda_vs_xga": {
+    "pearson_r": 0.315,
+    "p_value": 0.0044,
+    "slope_xga_per_ppda": 0.042
+  },
+  "xga_pm_top_quartile_press": 1.042,
+  "xga_pm_bottom_quartile_press": 1.216,
+  "ppda_vs_xga_within_league_r": 0.477,
+  "match_level_within_team_r": 0.229,
+  "high_turnovers_total": 4350,
+  "high_turnover_shot_rate": 0.245,
+  "most_high_turnovers_pm": [
+    [
+      "Real Sociedad",
+      2.63
+    ],
+    [
+      "Real Madrid",
+      2.61
+    ],
+    [
+      "Manchester City",
+      2.18
+    ]
+  ],
+  "ppda_vs_high_turnovers_r": -0.519,
+  "kmeans": {
+    "k": 4,
+    "silhouette_by_k": {
+      "2": 0.325,
+      "3": 0.233,
+      "4": 0.209,
+      "5": 0.213,
+      "6": 0.181
+    },
+    "pca_var_explained": [
+      0.606,
+      0.121
+    ]
+  },
+  "clusters": [
+    {
+      "style": "Deep block",
+      "ppda": 12.575,
+      "pressures_pm": 169.643,
+      "att_third_pressure_share": 0.173,
+      "counterpress_share": 0.191,
+      "pressure_regain_rate": 0.122,
+      "high_turnovers_pm": 1.177,
+      "def_action_height": 47.11,
+      "np_xg_conceded_pm": 1.255,
+      "n_teams": 22,
+      "teams": "Valencia, Getafe, Real Betis, Sporting Gij\u00f3n, RC Deportivo La Coru\u00f1a, Newcastle United"
+    },
+    {
+      "style": "Dominant high line",
+      "ppda": 9.467,
+      "pressures_pm": 145.919,
+      "att_third_pressure_share": 0.228,
+      "counterpress_share": 0.237,
+      "pressure_regain_rate": 0.149,
+      "high_turnovers_pm": 1.83,
+      "def_action_height": 52.026,
+      "np_xg_conceded_pm": 0.834,
+      "n_teams": 10,
+      "teams": "Barcelona, Lyon, Fiorentina, Paris Saint-Germain, Manchester City, Real Madrid"
+    },
+    {
+      "style": "High-intensity press",
+      "ppda": 9.334,
+      "pressures_pm": 163.302,
+      "att_third_pressure_share": 0.208,
+      "counterpress_share": 0.222,
+      "pressure_regain_rate": 0.137,
+      "high_turnovers_pm": 1.651,
+      "def_action_height": 50.44,
+      "np_xg_conceded_pm": 1.018,
+      "n_teams": 19,
+      "teams": "Celta Vigo, Rayo Vallecano, Liverpool, Tottenham Hotspur, M\u00e1laga, Manchester United"
+    },
+    {
+      "style": "Mid-block",
+      "ppda": 11.076,
+      "pressures_pm": 160.583,
+      "att_third_pressure_share": 0.195,
+      "counterpress_share": 0.211,
+      "pressure_regain_rate": 0.125,
+      "high_turnovers_pm": 1.347,
+      "def_action_height": 48.806,
+      "np_xg_conceded_pm": 1.215,
+      "n_teams": 29,
+      "teams": "Espanyol, Sevilla, Granada, Atalanta, Frosinone, Crystal Palace"
+    }
+  ]
+}
